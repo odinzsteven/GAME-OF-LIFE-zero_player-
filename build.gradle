@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'dz.univ_ouargla.mi.m1.mos_2018'
+version '1.1'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    def jetbrains_annotations = '16.0.3'
+    implementation "org.jetbrains:annotations:$jetbrains_annotations"
+}
